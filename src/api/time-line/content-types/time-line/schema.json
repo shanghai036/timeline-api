@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "time_lines",
+  "info": {
+    "singularName": "time-line",
+    "pluralName": "time-lines",
+    "displayName": "time-line",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "period_id": {
+      "type": "integer"
+    },
+    "character_name_id": {
+      "type": "json"
+    },
+    "event_id": {
+      "type": "json"
+    },
+    "added_by": {
+      "type": "integer"
+    }
+  }
+}

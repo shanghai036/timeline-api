@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "disputed_events",
+  "info": {
+    "singularName": "disputed-event",
+    "pluralName": "disputed-events",
+    "displayName": "disputed_event"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "event_id": {
+      "type": "integer"
+    },
+    "new_what": {
+      "type": "text"
+    },
+    "new_why": {
+      "type": "json"
+    },
+    "new_who": {
+      "type": "json"
+    },
+    "new_how": {
+      "type": "text"
+    },
+    "new_where": {
+      "type": "json"
+    },
+    "is_approved": {
+      "type": "boolean"
+    }
+  }
+}

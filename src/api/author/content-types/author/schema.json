@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "authors",
+  "info": {
+    "singularName": "author",
+    "pluralName": "authors",
+    "displayName": "author"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name_id": {
+      "type": "integer"
+    },
+    "works": {
+      "type": "json"
+    },
+    "born": {
+      "type": "date"
+    },
+    "died": {
+      "type": "date"
+    }
+  }
+}
