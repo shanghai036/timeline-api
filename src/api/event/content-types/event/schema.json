@@ -29,6 +29,11 @@
     },
     "added_by": {
       "type": "integer"
+    },
+    "populate_id": {
+      "type": "integer",
+      "required": true,
+      "unique": true
     }
   }
 }
