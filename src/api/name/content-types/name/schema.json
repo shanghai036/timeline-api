@@ -21,7 +21,7 @@
     "last": {
       "type": "string"
     },
-    "populate": {
+    "populate_id": {
       "type": "integer"
     }
   }
