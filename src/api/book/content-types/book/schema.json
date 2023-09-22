@@ -4,7 +4,8 @@
   "info": {
     "singularName": "book",
     "pluralName": "books",
-    "displayName": "book"
+    "displayName": "book",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -19,6 +20,9 @@
     },
     "published": {
       "type": "date"
+    },
+    "populate_id": {
+      "type": "integer"
     }
   }
 }

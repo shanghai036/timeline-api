@@ -4,7 +4,8 @@
   "info": {
     "singularName": "place",
     "pluralName": "places",
-    "displayName": "place"
+    "displayName": "place",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,6 +14,9 @@
   "attributes": {
     "name": {
       "type": "string"
+    },
+    "populate_id": {
+      "type": "integer"
     }
   }
 }

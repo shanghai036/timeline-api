@@ -23,6 +23,9 @@
     },
     "added_by": {
       "type": "integer"
+    },
+    "populate_id": {
+      "type": "integer"
     }
   }
 }

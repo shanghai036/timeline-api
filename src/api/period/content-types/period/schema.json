@@ -4,7 +4,8 @@
   "info": {
     "singularName": "period",
     "pluralName": "periods",
-    "displayName": "period"
+    "displayName": "period",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,6 +19,9 @@
       "type": "json"
     },
     "order_identifier": {
+      "type": "integer"
+    },
+    "populate_id": {
       "type": "integer"
     }
   }
